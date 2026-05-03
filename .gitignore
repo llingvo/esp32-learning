@@ -1,0 +1,37 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# VS Code local workspace settings
+.vscode/*
+!.vscode/extensions.json
+
+# Arduino / embedded build outputs
+build/
+dist/
+out/
+arduino_build_*/
+arduino_cache_*/
+.sketch/
+
+# Compiler and firmware artifacts
+*.a
+*.bin
+*.d
+*.eep
+*.elf
+*.hex
+*.lst
+*.map
+*.o
+*.su
+
+# Logs
+*.log
+
+# Local secrets
+.env
+.env.*
+secrets.h
+wifi_secrets.h
+*.local.h
